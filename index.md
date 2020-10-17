@@ -34,9 +34,9 @@ Lastly, as was the case in the first enhancement, the most difficulty I had was 
 
 References:
 
-Aggarwal, P. (2019, October 14). Shared Preferences in Android with Examples. GeeksforGeeks. https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/
+Aggarwal, P. (2019, October 14). Shared Preferences in Android with Examples. GeeksforGeeks. [https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/](https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/)
 
-Hans, J. (2020, September 23). SQLite vs MySQL vs PostgreSQL (Detailed Comparison). https://blog.ssdnodes.com/blog/sqlite-vs-mysql-vs-postgresql/
+Hans, J. (2020, September 23). SQLite vs MySQL vs PostgreSQL (Detailed Comparison). [https://blog.ssdnodes.com/blog/sqlite-vs-mysql-vs-postgresql/](https://blog.ssdnodes.com/blog/sqlite-vs-mysql-vs-postgresql/)
 
 ## Companions.py Enhancment
 
@@ -52,4 +52,4 @@ My biggest challenge in getting this to work was to recall my algorithm data.  I
 
 References:
 
-Leech, C. (2018, July 13). Implement linear and binary search algorithms with Javascript. Medium. https://medium.com/employbl/implement-linear-and-binary-search-algorithms-with-javascript-2149997588f0
+Leech, C. (2018, July 13). Implement linear and binary search algorithms with Javascript. Medium. [https://medium.com/employbl/implement-linear-and-binary-search-algorithms-with-javascript-2149997588f0](https://medium.com/employbl/implement-linear-and-binary-search-algorithms-with-javascript-2149997588f0)

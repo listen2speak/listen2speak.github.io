@@ -1,6 +1,13 @@
-## Jeff Souza's ePortfolio
+# Jeff Souza's ePortfolio
 
-This 
+This portfolio includes two programs designed and enhanced while a student in the Computer Science program at Southern New Hampshire University.  It includes a self-assessment, a code-review and two artifacts with enhancements and narratives explaining each enhancement.  The first program is a Campsite Locator application developed during my CS-360 Mobile Architecture course.  The enhancements for this program are in software design/engineering and databases.  The second program is a simple python-based listing application that covers enhancements in it’s algorithms and data structure.
+
+### Self-Assessment
+
+### Code Review
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aqCf2m3RZMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for

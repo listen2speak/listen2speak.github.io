@@ -34,7 +34,7 @@ Lastly, as was the case in the first enhancement, the most difficulty I had was 
 
 References:
 
-Aggarwal, P. (2019, October 14). *Shared Preferences in Android with Examples. GeeksforGeeks*. [https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/](https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/)
+Aggarwal, P. (2019, October 14). *Shared Preferences in Android with Examples*. GeeksforGeeks. [https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/](https://www.geeksforgeeks.org/shared-preferences-in-android-with-examples/)
 
 Hans, J. (2020, September 23). *SQLite vs MySQL vs PostgreSQL (Detailed Comparison)*. Serverwise: the SSD Nodes blog. [https://blog.ssdnodes.com/blog/sqlite-vs-mysql-vs-postgresql/](https://blog.ssdnodes.com/blog/sqlite-vs-mysql-vs-postgresql/)
 

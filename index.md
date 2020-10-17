@@ -10,7 +10,7 @@ This portfolio includes two programs designed and enhanced while a student in th
 
 ## Campsite Locator Enhancements
 
-#### The GitHub repository for the Campsite Locator application can be found here: [Campsite Locator](https://github.com/listen2speak/CampsiteLocator)
+### The GitHub repository for the Campsite Locator application can be found here: [Campsite Locator](https://github.com/listen2speak/CampsiteLocator)
 
 For the software design/engineering aspect of the ePortfolio, I have decided to go with the Campsite Locator application that I had developed in CS-360 Mobile Architecture.  This application takes a total of 30 pre-selected campgrounds throughout the New England area and allows the user to browse them by state.  A weather API was integrated into the application to allow for the user to check on current weather conditions in the area of the selected campground, a favorites list that originally allowed the user to only manually add in new favorites, and also allows the user to post a link to the campground’s website directly to FaceBook.  
 
@@ -38,9 +38,9 @@ Aggarwal, P. (2019, October 14). Shared Preferences in Android with Examples. Ge
 
 Hans, J. (2020, September 23). SQLite vs MySQL vs PostgreSQL (Detailed Comparison). https://blog.ssdnodes.com/blog/sqlite-vs-mysql-vs-postgresql/
 
-### Companions.py Enhancment
+## Companions.py Enhancment
 
-The GitHub repository for the Companions.py can be found here: [Companions](https://github.com/listen2speak/Companions)
+### The GitHub repository for the Companions.py can be found here: [Companions](https://github.com/listen2speak/Companions)
 
 For this artifact I had chosen to us a simple program that I was originally using to familiarize myself in both Python and JSON files.  Python was the first language that I received training in at the start of my computer science education, but I only ever had that one course in it.  I wanted to familiarize myself with its structure and syntax again since java and C++ had been the main coding languages that I had been using since that first class.  In one other class, Systems Architecture, we were introduced to JSON files but I never recalled actually learning about how they were used or for what purpose they served.  Again, I wanted to familiarize myself a bit better with them.  This program is a simple list program.  It asks for the user’s name and then allows the user to create two lists, one for friends’ names and another for pets.  Here they can print the list, delete from it and then save it to a JSON file.  Those files will then be read at the start of the program to keep the data the user stored.  I first started this during the winter break that brought in this year.  
 	

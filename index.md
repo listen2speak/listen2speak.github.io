@@ -6,11 +6,11 @@ This portfolio includes two programs designed and enhanced while a student in th
 
 ## Code Review
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aqCf2m3RZMs&t=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aqCf2m3RZMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Campsite Locator Enhancements
 
-####The GitHub repository for the Campsite Locator application can be found here: [Campsite Locator](https://github.com/listen2speak/CampsiteLocator)
+#### The GitHub repository for the Campsite Locator application can be found here: [Campsite Locator](https://github.com/listen2speak/CampsiteLocator)
 
 For the software design/engineering aspect of the ePortfolio, I have decided to go with the Campsite Locator application that I had developed in CS-360 Mobile Architecture.  This application takes a total of 30 pre-selected campgrounds throughout the New England area and allows the user to browse them by state.  A weather API was integrated into the application to allow for the user to check on current weather conditions in the area of the selected campground, a favorites list that originally allowed the user to only manually add in new favorites, and also allows the user to post a link to the campground’s website directly to FaceBook.  
 

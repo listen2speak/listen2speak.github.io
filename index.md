@@ -2,15 +2,15 @@
 
 This portfolio includes two programs designed and enhanced while a student in the Computer Science program at Southern New Hampshire University.  It includes a self-assessment, a code-review and two artifacts with enhancements and narratives explaining each enhancement.  The first program is a Campsite Locator application developed during my CS-360 Mobile Architecture course.  The enhancements for this program are in software design/engineering and databases.  The second program is a simple python-based listing application that covers enhancements in it’s algorithms and data structure.
 
-### Self-Assessment
+## Self-Assessment
 
-### Code Review
+## Code Review
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aqCf2m3RZMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Campsite Locator Enhancements
+## Campsite Locator Enhancements
 
-The GitHub repository for the Campsite Locator application can be found here: [Campsite Locator](https://github.com/listen2speak/CampsiteLocator)
+####The GitHub repository for the Campsite Locator application can be found here: [Campsite Locator](https://github.com/listen2speak/CampsiteLocator)
 
 For the software design/engineering aspect of the ePortfolio, I have decided to go with the Campsite Locator application that I had developed in CS-360 Mobile Architecture.  This application takes a total of 30 pre-selected campgrounds throughout the New England area and allows the user to browse them by state.  A weather API was integrated into the application to allow for the user to check on current weather conditions in the area of the selected campground, a favorites list that originally allowed the user to only manually add in new favorites, and also allows the user to post a link to the campground’s website directly to FaceBook.  
 

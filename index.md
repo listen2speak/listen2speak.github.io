@@ -24,7 +24,7 @@ I was able to accomplish what I set out to do for my enhancement to this item.  
 
 When I originally wrote the program, I failed miserably at commenting my code.  Coming back to it now after 8 months I was very much lost.  Trying to remember what activities fed into each other and what activities manipulated the SetLibrary database and the Favorites Database got very tricky.  This was poor coding on my part and I am suffering for it now.  I, at first, attempted to re-write a lot of my code to move information from within the CampsiteActivity to the favorites list.  Then I stepped back and realized that sometimes the simplest solution is the best.  I already had a database helper class written and all I needed was to utilize that and send over the information that was required.  I also learned how to edit shapes for checkboxes as well and that, though more for aesthetics, was interesting as well.
 
-For my databases enhancement I have returned to my Campsite Locator application from the mobile development class.  I used this for my software design/engineering enhancement as well.  This time, I have manipulated the user’s “Favorites” database using SQLite.  This takes the software design enhancement and gives the user further access to change the information in their own database without affecting the programs internal database.  The user can now add their own comments, which will be displayed in the list, as well as give their own star rating, and edit the site name and location if it suits them.  There is also the ability to go directly to the campsite website when they select the campsite from their favorites list.  I felt that this was the next step in the process of advancing this program and would fit well with the requirements set forth for this type of enhancement project.
+For my databases enhancement I continued to work on my Campsite Locator application. This time, I have manipulated the user’s “Favorites” database using SQLite.  This takes the software design enhancement and gives the user further access to change the information in their own database without affecting the programs internal database.  The user can now add their own comments, which will be displayed in the list, as well as give their own star rating, and edit the site name and location if it suits them.  There is also the ability to go directly to the campsite website when they select the campsite from their favorites list.  I felt that this was the next step in the process of advancing this program and would fit well with the requirements set forth for this type of enhancement project.
 	
 I chose to use SQLite for this application as it is open source and does not require a separate server.  The program we are running is a small program with not a tremendous amount of data being added to either the internal database or the user’s favorite database.   The fact that we are using this for a mobile application, with the possibility of the database ever reaching the 140-terabyte maximum that SQLite supports being very minute, makes SQLite a very good choice for the Campsite Locator application (Hans, 2020).  
 
@@ -40,37 +40,16 @@ Hans, J. (2020, September 23). SQLite vs MySQL vs PostgreSQL (Detailed Compariso
 
 ### Companions.py Enhancment
 
+The GitHub repository for the Companions.py can be found here: [Companions](https://github.com/listen2speak/Companions)
 
+For this artifact I had chosen to us a simple program that I was originally using to familiarize myself in both Python and JSON files.  Python was the first language that I received training in at the start of my computer science education, but I only ever had that one course in it.  I wanted to familiarize myself with its structure and syntax again since java and C++ had been the main coding languages that I had been using since that first class.  In one other class, Systems Architecture, we were introduced to JSON files but I never recalled actually learning about how they were used or for what purpose they served.  Again, I wanted to familiarize myself a bit better with them.  This program is a simple list program.  It asks for the user’s name and then allows the user to create two lists, one for friends’ names and another for pets.  Here they can print the list, delete from it and then save it to a JSON file.  Those files will then be read at the start of the program to keep the data the user stored.  I first started this during the winter break that brought in this year.  
+	
+I chose this artifact as a way to incorporate my knowledge of search algorithms.  Originally, when deleting a name from either list, the program would follow a linear pattern while searching for the name. Dealing with a small list, a linear pattern would be fast enough, however should that list grow to a much larger amount, linear search becomes a less viable solution.  I have chosen to insert a binary search.  Here, we split an ordered list and search the middle element.  We then continue to half split the list in the direction that our query lies until we find the list.  This way we are not individually looking at each element of the list but always splitting our list in half and looking to the center (Leech, 2018).
 
+Originally, I had thought to make an adjustment to the list allowing for it to be made up of arrays of strings using both name and age and to order them using either of the two variables.  Instead I focused more on the search aspect and tied it into my delete function.  This way we can search for the name to be deleted using the binary search method and if found, it is removed from the list.  If it is not found, it is stated and then the user is allowed to continue with the program.  
 
-### Markdown
+My biggest challenge in getting this to work was to recall my algorithm data.  I had lost all the work I had from my algorithms class due to a system crash on my computer so trying to recall these methods and get them to function was a bit of a challenge.  Once I sat down and remembered how the binary search function works, I was on my way.  I did forget about subtracting “1” from my total length of the list and subtracting and adding “1” to and from my “mid” variable.  This was causing my program to crash whenever I was attempting to delete an element that wasn’t in the list.  Fortunately, that has been remedied and the method is working as intended now.  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+References:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/listen2speak/listen2speak.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Leech, C. (2018, July 13). Implement linear and binary search algorithms with Javascript. Medium. https://medium.com/employbl/implement-linear-and-binary-search-algorithms-with-javascript-2149997588f0

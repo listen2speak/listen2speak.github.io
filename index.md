@@ -6,7 +6,7 @@ This portfolio includes two programs designed and enhanced while a student in th
 
 ## Code Review
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aqCf2m3RZMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aqCf2m3RZMs&t=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Campsite Locator Enhancements
 

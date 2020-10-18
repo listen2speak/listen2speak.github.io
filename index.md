@@ -1,8 +1,27 @@
 # Jeff Souza's ePortfolio
 
-This portfolio includes two programs designed and enhanced while a student in the Computer Science program at Southern New Hampshire University.  It includes a self-assessment, a code-review and two artifacts with enhancements and narratives explaining each enhancement.  The first program is a Campsite Locator application developed during my CS-360 Mobile Architecture course.  The enhancements for this program are in software design/engineering and databases.  The second program is a simple python-based listing application that covers enhancements in it’s algorithms and data structure.
-
 ## Self-Assessment
+
+I began my courses at Southern New Hampshire University in the summer of 2018.  Having honorably served in the US Navy and having over 10 years of electronics experience I was working as a field technician for an underwater robotics company.  It was there that I started to pay more attention to the software that was being used to control these robots and realized that it was something that I wanted to be more educated with.  Thus, utilizing the GI Bill and credits that were earned while serving, I decided to earn my Computer Science degree.  
+
+Possessing strong troubleshooting skills from my electronics background, I found that creating and designing programs were very similar to how I would attack a broken piece of equipment.  Much like a circuit takes in and outputs signals, a program does the same with data.  It takes in and outputs data and information, and the skills I have learned over the past 26 months have assisted me in enhancing and designing useful programs both within the class structure and on my own.
+
+When I started my classes, I had very limited programming knowledge outside of a few YouTube videos I watched regarding Python.  Now, not only do I have a firm knowledge of Python, but I am also versed in C/C++ and Java as well as other programming languages.  I have a better understanding of databases such as MySQL and SQLite and how to incorporate these into other programs.  The computer science program at SNHU has also given me the experience needed to understand algorithms and data structures, and when and where to use them.  
+
+In CS-250: Software Development Lifecycle, I learned about the development of software, both in Agile and Waterfall modes.  I now understand how the different members of a team work together to ensure the customer receives the exact product they are looking for through the different interactions between the team.    
+
+Two of my favorite classes were CS-350: Emerging Systems Architecture and Technology and CS-360: Mobile Architecture and Programming.  CS-350 worked with designing programs to run peripheral equipment as if based on an embedded computer within a larger system.  This is very similar not only to the robots that I had worked on previously, but to my current position as a test engineer for towable sonar systems.  In this class I designed a Python program that utilized both a light and a temperature & humidity sensor as well as multiple LEDs.  This program would periodically take temperatures throughout the day or night (light sensor) and record temperature and humidity data to a JSON file.  This file could then be output to an HTML chart for real-time tracking.  Simple, but it was one of the first times I created something that I could relate to my own real-world experiences.  In CS-350 I developed an Android application to search for New England area campsite locations.  This program is attached to this portfolio and will be discussed in greater detail below.
+
+Lastly, I have learned how to be a team player.  This is something that my military experience has taught me, but it was reinforced through my courses.  Peer reviews are something that comes with proper code validation.  A peer review can not only provide a junior developer with better feedback from a senior one, but also prevents possible faulty code from being released into the system.  Code may appear clean, pass JUnit testing, compile without error or warning and may even pass static analysis tool checks, but sometimes another set of eyes may find a repeated line of code that may cause a security violation as was the case with Apple’s “goto fail” bug (Ganesan, 2020).  
+
+In the following portfolio, I have included two artifacts.  The first is my Campsite Locator application that was developed during my CS-360 Mobile Architecture course.  Here I took my basic design and enhanced it in both design and its database access.  I revamped the favorites screen to not only allow the user to add their own favorite campsite, but to select a site that is already found within the application.  Then the user can make modifications to its star-rating, name, location, or information boxes.  This allows the user to more customize their own list with their own information without affecting the program as a whole.  
+
+I have also included a simple python-based listing application that began as a simple exercise in python. This program covers enhancements in its search algorithm moving from a linear search method to a more advanced binary search method.  Both of these programs I feel reflect my knowledge and abilities in designing secure, functional and quality programming.  
+
+References:
+Ganesan, K. V. (2020, August 01). *Apple's Most Notorious Code Bug*. Medium. [https://medium.com/swlh/apples-most-notorious-code-bug-6478ebaea44f](https://medium.com/swlh/apples-most-notorious-code-bug-6478ebaea44f)
+
+
 
 ## Code Review
 
